@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="http://flukeout.github.io/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+            <div class="header__content">
+                    <div class="text_container">
+                        <p class="text-1">BHROMAON</p>
+                        <p class="text-2">Safe Travel Anywhere</p>
+                    </div>
+                    <form action="#" method="get" class="form">
+                            <input class="input" type="text" placeholder="Search Your Travel Destination">
+                            <input class="submit" type="submit" value="SEARCH ">
+                  </form>
+
+                  <div class="scroll">
+                      <p>Scroll Down</p>
+                      <a href="#choose"><i class="fas fa-angle-down"></i></a>
+                  </div>
+            </div>
+        <div class="header__footering">
+            <div class="logo">
+               <p>
+                    BHROMAON
+               </p>
+           </div>
+           <nav class="nav">
+               <input  class="checkbox" type="checkbox" name="input" id="checkbox">
+                   <label class="header__burger" for="checkbox">
+                           <svg class="ham hamRotate ham4" viewBox= "0 0 100 100" width="100" onclick="this.classList.toggle('active')">
+                                   <path
+                                         class="line top"
+                                         d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                                   <path
+                                         class="line middle"
+                                         d="m 70,50 h -40" />
+                                   <path
+                                         class="line bottom"
+                                         d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                           </svg>
+                   </label>   
+               <ul class="header__list">          
+                   <li><a href="#choose">Who We Are</a></li>
+                   <li><a href="#spain">What We Do</a></li>
+                   <li><a href="#spain-2">Travel With Us</a></li>
+                   <li><a href="#our">Travel With Us</a></li>
+               </ul>
+           </nav> 
+        </div>       
+    </header>
+    <main>
+        <div class="choose" id="choose">
+            <div class="choose__heading">
+                    <div class="text_container">
+                            <p class="text-1">Why Choose Us</p>
+                            <p class="text-2">
+                                Lorem ipsum dolor sit, amet con
+                                sectetur adipisicing elit. Id asperna
+                                tur tempora fuga! Assumenda, doloribus laborum?
+                            </p>
+                            <p class="text-2">
+                                    Lorem ipsum dolor sit, amet con
+                                    sectetur adipisicing elit. Id asperna
+                                    tur tempora fuga! Assumenda, doloribus laborum
+                                    Lorem ipsum dolor sit, amet con
+                            </p>
+                            <button>EXPLORE PLACES </button>
+                        </div>
+                <div class="choose__gallery">
+                    <img class="img-1" src="../images/8b8f6692c0e1d0febe1373e2475916b9-choose2.png" alt="river">
+                    <img class="img-2" src="../images/f93e615d1aa4f195b001752574355ec8-choose1.png" alt="mountain">
+                </div>
+            </div>
+            <div class="choose__footering">
+                <div class="box">
+                   
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA5CAYAAABnLziGAAAFDElEQVRogd2be4hVVRTGf/fa1GTTqNELpSeTUkTSgyRT8xVCmJSIESEoGQlh0dOICnqQKRU1BEJRERT28I9UKjEqekhUUPZ2bLQHZZJQU46PpqaJBd+hzdn33jmPPfeeOx8M+5x71j57fWfvvfbaa+0pLbilnwBoAc4HzgU6gOOBUUAZ+Bf4A/gF2A58BHwCBGk4KQ7JUfdw4FJgETADOMKTqI4/gU3Acyr/rioZCFmIWk8tB24Ajo49+wf4HvgB+E0ErLfHACcBp6jNdmCh/n4CHgKeBPZ7rQVCmqFrw/Bq4IEYwW3Ai8BbwIfAX17N/3EYMAmYBVwBTHCe/QjcDKzzagVAUqLjgOeBi3Rv8249sErksmIqsAK4xHTRO14BlgA9IYmWvV98TAE+dUh+AJwHzM9J0vAeMFeEP9NvlwFbgTM96RwYjOg8YDNwjOabff0LRTwktujj3a/RYvP5XbU15ERtHr0s6/q77lcDA55kGJghu0sj5YAM2KtasoaM6ERgA3AosAeYpmFWD9jcnyMLbBb+dfVwcKJtsqIjtd7ZWvmlJzW0sI+6AOjTtFmrjx6U6GrH7C8NYHCywnryNtW9ALgjz8viRM0gXKvrJzRHG4lOTSHD7cD4UERX6bfdwK2edP1hhu86oFfOxoMhiE4GZur6Ps3PIsBcxJXSw9bYs/ISvV6l9eYznmRj0aklrpR1pEVE2+UcGJ7SOlYk9MrpR9a4PSvRuXIMkE9bRDwrnVrlG2ciOl3lDuAbT6oY+BrYKU1mZSU6WeU7nkSx8Ka0mZaF6AjgNN2HdtZDI9LvVG3oE8OInui4VzsKTrRLpUUpTvae1oARHe083l1dtBD41VEiHsapibKc+Aj7PIliwXVi2tJoVsmpbxak0r2sxThCmpBlI3Ck02aq0VeOBaGO8ySKhWMdbVLZk7LCjAd13+FJFAvRPrlfeqci2u+Y7bM9iWIh0q9b0YdURA3vq5zuSRQLs6XNlrRaRUTfVmkexxmeVDEwUfqhEGwmohaf2avrRZ5UMbBEWpg9eS0r0f1OfGhpAZeZoxyiLzmdkhjuovuYYjTmWi2rL49BcZM226bfo1le4BL9HNio6zsLtKZ2KMuGElCZdlhxN2qF0n6jFadpNEYo7NoqvTLHduNELdf5sK4XOjHeRuFuZdNRXnZbKKKGe4CPdd3phEDrjauUdELL38o87Vci2qds9B5tyNc7udF6wTJqTyu8aQboxrznHCoRNXyn5NJe7fs2KcxYDyzTEhJFPUpKeo0dCqIouTRHhy5a1fgjebNaNTBSgfM1MkIuJuiMRGaytYiiNP5U9XBJQ2irYyBCweLKXwGL9b4vdCYpGNkku3SLp56jHjWcrgbfkKEqeTWSwepdrBT+RifY9YJS+jNCkk0ajuiRgZrv7ANnK876rSz1lAQhyBbJ3at6mzVi0HsvB66UbdgVkmyWI3KWurhGSdpxsWd92it2K0TTK7+5TR5Oh9J/Ln7W3F9TJeczVstLPDfapRG1y6tRAXnOArYoB7JYQzDNRuCALPlauXWDLR25yYY89DhJc9mG1gkiPkrDcJ+OznU7hx4Pem+pjWpkt2uI1yQbimi9kJlss8V1qxmo8foAVQ1UMwawM5Ft1kh9arLNnJKIyHbFfq9ItpmJIrIzk5BtdqIkJTsciJKA7JjhQpQaZM2f7hlORA1xso/roNhAnn8HKSoisuaDW5xpAOA/zpAWY9tVYmkAAAAASUVORK5CYII=" alt="searc">
+                           
+                    <p class="text">Search Places</p>
+                </div>
+                <div class="box">
+                   
+                        <img src="data:image/png;base64,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" alt="arrow">
+                   
+                    <p class="text">Select Places</p>
+                </div>
+                <div class="box">
+                    
+                           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA7CAYAAAAjDDn3AAAE9UlEQVRogeWba4xdUxTHf8NUUCpeJVWMVpgKU1Q96pE0lJZ4l9CKiXjHNF4f+ISEBPEMX8Trw3xoikwi8QjKIKg0YiSi2tCO8RitqiptPduS1fmf3t277z33zty9z+mc/pKbs89d+95z/ufss/bea+3TROd/5MixwM1AG7A78B3wAfAUsDzmaeUp/AbgSaDZs8Aq4CJdhCjkJfxQYLFEL9cdXgtMBc4GdgTWqCV87/06AJWudhZM17H/UnNfoWM+BrQC7wBjgDuAjhjns4P3TTYcqKOsdEQnLAEeUPkqYJciCR+t7VrPMsC72u4KTPKsAchLeIu21YQvccqHedYA5CV8nLbVHNcG4DeV9/GsAchD+E7AWJV7PWuJP1WKco55CG9xjvupZy2ROLUo/W0ewt1n9kPPOsAIYDeVf/esAchD+DHafpkyLB2jQQwaxQUnD+HTtH3Rs5RodcrfetYAZC3cBi4nq5wm/EinvNSzBiBr4R065nsaq1djir7vA1ZXqdMQWQq3u32Tyo971hJ2TqdqL83rN0RWwpuAp4GRwCLgFa9GicnAvtp737MGIivhd2tGZtwGbPJqlDjHKXd71kBkIfxWCTeeAd7yamxNInylurwoxBRu/fCDwKPa765jbj3W6effiDVqI2IgYk9grtO8LbBwIfCPV3NrrpA/MF7wrAGJccePAj5xRD+ncFK1KahLu8or6ngkGiK08MuBBcB4YCNwC3BNHXfaONEZsXVqahqNUE19D+AR4Grt/wpcNsi71l62f51XY2jYBewHPgLWJf8QIsp6MfCEJhaon7bQ8FdezeqYT/hGFzAWNsu7H3jIWmOzBhX7DeJgO+sEJwKzgVMcW6dGZ+u8X6VjreMXfUJjzvIgYBQDwg8A5tgdf7Vs0DAUlqm/ThuR5cn+wPPADHWRExtxbn8rGmrP5oRtWDTqJS4BflILmOE6t241hVr8oRlTb53eelthPbAQOM+auyvcrsrbw0jIUEjC2mvyCi/ngQ2X23TcBXnlzmIyE9jL+X/TeIJ6IDTHn19E4Xdp2FyJXnWdm7aXpm7O+F5lZjfH8IoovE3JxtlOvG6DeqwkLVVI4Sj9ZNPi05SDH60J1BaK3tQXOV30ca5he3jG/9U2ycxspujCLU93lsqfu4aiCh+hWePLcnT2nL/kVihKP27Rm9ed/ZHKw6NI0O2K2m6hKMKbFcwo52ubewNvVvpBEbAc252ahLQ7iwpmlj/bCUV5xn9QDP9G4AjF/NB+RYro3PqcpOQ0zyqK6tW/0LbqiqmiCj9d237PIooo/EzgWpW7PKsY7l79AmCWsz9OU08LKP6seH9FhrvwVkVPyzEvf37aiqnh3tT71E+7Cw0eBg4HerzaDq7wWQq21/OxKzkfuD5y2qcW85TRmew4sqkKgacy1Du+N3CG3izoVyr4eK9WdvRoPI6Weddc8WwppOnKLQ1W+LnASWXf92iRfVeNdS4xaFHiEQ1cUnMEjWZLJyhJeKXeIkpYrKzkXKWasmCKUsHIs3+WdsxQL+OM0uSgo6yZrdKSji69URQr2W8X/TWtj/tRa+pSW1zot5CaNICYo8yk60NWa6HAQqWrNnq/Hjz2/wdrEcF4/doGL8/WPtF4r18dosU8l5atTY2FXcj7gHvq+f+s3js7WguAzBnaO2dJdCQElgX9WC/vJZOTdID/Afy38Lt+/CWAAAAAAElFTkSuQmCC" alt="handup">
+                    
+                    <p class="text">Book & Enjoy</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="spain" id="spain">
+
+                     <div class="text_container">
+                            <p class="text-1">Spain</p>
+                            <p class="text-2">GRAND SPAIN MADRID</p>
+                            <p class="text-3">
+                                Lorem ipsum dolor sit, amet con
+                                sectetur adipisicing elit. Id asperna
+                                tur tempora fuga! Assumenda, doloribus laborum?
+                                adipisicing elit. Id asperna
+                                tur tempora fug
+                            </p>
+                            <button>BOOK NOW</button>
+                        </div>
+        </div>
+        <div class="spain-2" id="spain-2">
+                <div class="text_container">
+                        <p class="text-1">Spain</p>
+                        <p class="text-2">GRAND SPAIN MADRID</p>
+                        <p class="text-3">
+                            Lorem ipsum dolor sit, amet con
+                            sectetur adipisicing elit. Id asperna
+                            tur tempora fuga! Assumenda, doloribus laborum?
+                            adipisicing elit. Id asperna
+                            tur tempora fug
+                        </p>
+                        <button>BOOK NOW</button>
+                </div>
+
+        </div>
+        <div class="our" id="our">
+            <div class="our__heading">
+                <p>What Our  Tourist Say</p>
+            </div>
+            <div class="our__content">
+                <div class="img_box"><img src="../images/d5a691ed9601bc6601a8507fa2e84538-ourimg1.png" alt=""></div>
+                <div class="text_container">
+                    <p class="text-1">SAM SUMON</p>
+                    <p class="text-2">
+                            <span>"</span>But I must explain to you how 
+                            all this mistaken idea of account to de
+                            nouncinpleasure and praising pain  But I mus
+                            t explain to you how all this mistaken idea o
+                            f account to nai denouncing pleasure and prais
+                            ing pain was account  born and I account will g
+                            ive you a complete account of the system was acco
+                            unt  born and I account will give you a nai the c
+                            omplete account of the system
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer__content">
+            <div class="box">
+                <p class="text-1">BHROMAON</p>
+                <p class="text-2">Safe Travel Anywhere</p>
+            </div>
+            <ul class="list">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    
+    
+    <script src="https://kit.fontawesome.com/d7a17a782f.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
